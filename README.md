@@ -8,6 +8,8 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/Matidp](https://github.com/Matidp)
 
+- My Personal [Portfolio](https://matidp.github.io/portfolio/)
+
 - 📫 How to reach me **matiasdepascuale@gmail.com**
 
 - Also in my Linkedin <a href="https://www.linkedin.com/in/matias-de-pascuale-38817919b/">
