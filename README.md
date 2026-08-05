@@ -2,7 +2,7 @@
 <h3 align="center">A Backend developer</h3>
 
 
-- 🔭 I’m currently working at Seenka as a Backend Developer
+- 🔭 I’m currently working at Mercado Libre as a Backend Developer
 
 - 🌱 I’m currently learning and working with **Python, GCP, Django**
 
