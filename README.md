@@ -1,23 +1,41 @@
-<h1 align="center">Hi 👋, I'm Matías De Pascuale</h1> <h3 align="center">Sr. Software Engineer @ Mercado Libre · Backend · Go · Cloud</h3> <p align="center"> <a href="https://www.linkedin.com/in/matias-de-pascuale-38817919b/"> <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> <a href="mailto:matiasdepascuale@gmail.com"> <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/> </a> </p>
-🙋‍♂️ About me
-💼 Senior Software Engineer at Mercado Libre, designing and building backend services that run at scale.
-🐹 My main language is Go, alongside Python when it's the right tool.
-☁️ I build and operate systems on AWS and Google Cloud, from APIs and event-driven services to data pipelines.
-🧩 Backend first, but I've shipped across the stack: web apps, mobile apps (Android) and frontends.
-🚀 I care about clean design, reliability and taking products from idea to production.
-🇦🇷 Based in Argentina · 🗣️ Spanish / English
-🛠️ Tech stack
+<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00ADD8&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Mat%C3%ADas+De+Pascuale+%F0%9F%91%8B;Sr.+Software+Engineer+%40+Mercado+Libre;Backend+%C2%B7+Go+%C2%B7+AWS+%C2%B7+Google+Cloud;From+idea+to+production." alt="Typing intro"/>
 
-Languages
+<a href="https://www.linkedin.com/in/matias-de-pascuale-38817919b/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white"/></a> <a href="mailto:matiasdepascuale@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
 
-<p> <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/> <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/> </p>
+</div>
+go
+package main
 
-Cloud & infrastructure
+type Engineer struct {
+	Name     string
+	Role     string
+	Company  string
+	Location string
+	Focus    []string
+	Shipped  []string
+	Clouds   []string
+}
 
-<p> <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/> <img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/> <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/> </p>
+func main() {
+	me := Engineer{
+		Name:     "Matías De Pascuale",
+		Role:     "Sr. Software Engineer",
+		Company:  "Mercado Libre",
+		Location: "Argentina 🇦🇷",
+		Focus:    []string{"backend at scale", "distributed systems", "clean design"},
+		Shipped:  []string{"APIs", "event-driven services", "web apps", "Android apps", "frontends"},
+		Clouds:   []string{"AWS", "Google Cloud"},
+	}
 
-Data & tools
+	me.Build() // from idea to production 🚀
+}
+What I do
 
-<p> <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/> <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img alt="Redis" src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> </p>
-📊 GitHub stats
-<p align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=Matidp&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true"/> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Matidp&layout=compact&theme=radical&hide=html,scss&exclude_repo=RedAnillo&hide_border=true"/> </p>
+I'm a backend engineer at heart, writing mostly Go (and Python when it fits). At Mercado Libre I design, build and run services that handle real traffic, on AWS and Google Cloud. Over the years I've also shipped web apps, Android apps and frontends, so I like owning features end to end, not just my slice of the stack.
+
+Toolbox
+<p> <img src="https://skillicons.dev/icons?i=go,python,js,kotlin,androidstudio&theme=dark" alt="Languages"/> <br/> <img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes&theme=dark" alt="Cloud and infrastructure"/> <br/> <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,git&theme=dark" alt="Data and tools"/> </p> <div align="center">
+
+<sub>Open to interesting conversations about backend, cloud and building products. Feel free to reach out ✉️</sub>
+
+</div>
